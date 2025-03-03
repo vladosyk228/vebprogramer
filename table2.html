@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <table class="parent-table">
+        <tr>
+            <td colspan="2">1-2</td>
+            <td class="w-3">3</td>
+        </tr>
+        <tr>
+            <td class="w-4">4</td>
+            <td rowspan="2" colspan="2" class="child-table-cell">
+                <table class="child-table">
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="2" class="h-2-5-8">2-5-8</td>
+                        <td>3-6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="" class="h-4-7">4-7</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>
